@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fun questionnaire to find out which kind of wine drinker you are.">
+    <meta name="keywords" content="questionnaire, wine, wine drinker, fun">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Wine Questionnaire</title>
+</head>
+<body>   
+    <div class="bcg-img"></div>
+    <div class="header">
+        <h1>What kind of <br>wine drinker are you?</h1>
+    </div>    
+    <!-- questions -->
+    <div class="container" id="first-box">
+        <h2>What does your wine cellar<br>looks like?</h2>
+        <div class="options">        
+            <input type="radio" id="q1o1" name="q1" value="type1">
+            <label>You mean my fridge?</label><br>
+            <input type="radio" id="q1o2" name="q1" value="type3">
+            <label>A pile of wine boxes in the basement.</label><br>
+            <input type="radio" id="q1o3" name="q1" value="type2">
+            <label>Modern looking wall-mounted bottle display.</label><br>
+            <input type="radio" id="q1o4" name="q1" value="type4">
+            <label>Temperature controlled under counter wine unit.</label><br>
+        </div>
+
+        <h2>How do you open your wine?</h2>
+        <div class="options">
+            <input type="radio" name="q2" value="type3">
+            <label>Pocket sized wine opener, very handy.</label><br>
+            <input type="radio" name="q2" value="type1">
+            <label>My electric opener is so easy!</label><br>
+            <input type="radio" name="q2" value="type4">
+            <label>Correction: I never 'open' my wine,I use the Coravin.</label><br>
+            <input type="radio" name="q2" value="type2">
+            <label>A brass tabled mounted opener, it's beautiful!</label><br>
+        </div>
+
+        <h2>Do you have a decanter?</h2>
+        <div class="options">
+            <input type="radio" name="q3" value="type2">
+            <label>Crystal glass decanters.</label><br>
+            <input type="radio" name="q3" value="type3">
+            <label>Drink wine for science baby! I use a blender.</label><br>
+            <input type="radio" name="q3" value="type4">
+            <label>I have a decanter for every style of wine.</label><br>
+            <input type="radio" name="q3" value="type1">
+            <label>Do I need to decant? I use my mouth.</label><br>
+        </div>
+            
+        <h2>Tell me about your wine glasses</h2>
+        <div class="options">
+            <input type="radio" name="q4" value="type4">
+            <label>Sommelier series, they are hand blown. Not cheap.</label><br>
+            <input type="radio" name="q4" value="type1">
+            <label>What wine glasses? When I drink my arms flail.</label><br>
+            <input type="radio" name="q4" value="type3">
+            <label>I have a basic set of reds and Champagne flutes.</label><br>
+            <input type="radio" name="q4" value="type2">
+            <label>Stunning! Fragile vintage Czech crystal glasses.</label><br>
+        </div>
+
+        <h2>How do you ready your glasses?</h2>
+        <div class="options">
+            <input type="radio" name="q5" value="type1">
+            <label>Ready my glasses? What are you talking about?</label><br>
+            <input type="radio" name="q5" value="type3">
+            <label>Flour sacks are ten a penny, I use them all the time.</label><br>
+            <input type="radio" name="q5" value="type2">
+            <label>I don't use my glasses. I don't want them to break!</label><br>
+            <input type="radio" name="q5" value="type4">
+            <label>I use a special wine glass polishing cloth of course!</label><br>
+        </div>
+        
+        <h2>What do you set your bottle on?</h2>
+        <div class="options">
+            <input type="radio" name="q6" value="type4">
+            <label>On a silver plated wine coaster.</label><br>
+            <input type="radio" name="q6" value="type3">
+            <label>On the table.</label><br>
+            <input type="radio" name="q6" value="type2">
+            <label>I make wine bottle lamps!</label><br>
+            <input type="radio" name="q6" value="type1">
+            <label>In the recycling bin with the other ten.</label><br>
+        </div>
+
+        <button type="submit" id="submit" onclick="getResult()">submit</button>
+        <button type="reset" id="reset" onclick="location.reload()">reset</button>
+
+        <div class="options" id="result">For you, wine is like...</div>
+
+        <!-- hidden result cards -->
+        <div class="types" id="grocery">
+            <i class="fas fa-shopping-cart"></i>
+            <h2>Wine is a Grocery</h2>
+            <p>Wine is part of your life in the same way as toilet paper, coffee or bread. You love it, but mostly for its effects. Some say you’re lazy, but you could care less.</p>
+            <h3>What to watch out for:</h3>
+            <p>Yellow stickers. Just because a wine looks like it’s discounted doesn’t mean you’re getting a great tasting wine. A wine like this may have actually declined in flavor (e.g. a 5 yr old Prosecco) or was initially marked up in order to fool you.<br><em>Yep — This kind of thing happens all the time.</em></p>
+        </div>
+    
+        <div class="types" id="art">
+            <i class="fas fa-palette"></i>
+            <h2>Wine is Art</h2>
+            <p>You love how wine bottles look and the colors of wine… maybe even more than the actual wine.</p>
+            <h3>What to watch out for:</h3>
+            <p>Beautiful labels and bottles catch your eye; make sure it’s something you want to drink before buying it.</p>
+        </div>
+    
+        <div class="types" id="geek">
+            <i class="fas fa-gamepad"></i>
+            <h2>Wine Geek</h2>
+            <p>You are a wine min-maxer: minimum expense, maximum experience. You seek out hot value regions and learn new things in order to have a great time.</p>
+            <h3>What to watch out for:</h3>
+            <p>Bad information. There is a lot of faulty information online and off that can mislead your choices.</p>
+        </div>
+    
+        <div class="types" id="snob">
+            <i class="fas fa-wine-glass-alt"></i>
+            <h2>Wine Snob</h2>
+            <p>You spare no expense with your wine habit and your obsession makes you look like a snob. To be fair, you’ve worked very hard to get where you are.</p>
+            <h3>What to watch out for:</h3>
+            <p>Ratings and reviews that appeal to your high-brow tastes, not all that glitters is gold… some is just hype.</p>
+        </div>
+    </div>
+    
+
+    <footer><span>Created by WineFolly.com &copy; - Reimagined by MarianneJ</span></footer>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/3c9e45ada9.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
