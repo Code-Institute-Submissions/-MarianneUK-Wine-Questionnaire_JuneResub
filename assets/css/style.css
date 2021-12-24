@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #707070;
+    position: relative;
+}
+
+.bcg-img {
+    background: url(../pictures/wine-corks.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1, h2 {
+    font-family: 'Varela Round', sans-serif;
+    background-color: transparent;
+}
+
+h2 {
+    margin: 10px auto;
+}
+
+.header {
+    height: 90px;
+    width: 400px;
+    margin-top: 0px;
+    background-color: #F1D8BC;
+    border: solid 2px #707070;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.container {
+    height: auto;
+    width: 400px;
+    background: #F1D8BC;
+    border: solid 2px #707070;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    display: block;
+    margin: 25px auto 30px auto;
+}
+
+.options {
+    width: 350px;
+    height: auto;
+    background: white;
+    border: solid 1.5px #707070;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+}
+
+label {
+    background-color: transparent;
+    margin: 5px 0;
+}
+
+input {
+    cursor: pointer;
+}
+
+button {
+    height: 25px;
+    width: 75px;
+    background: #707070;
+    border-radius: 25px;
+    text-align: center;
+    color: #F1D8BC;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #F1D8BC;
+    color: #000;
+    font-weight: bold;
+}
+
+.types {
+    width: 350px;
+    height: auto;
+    background: white;
+    border: solid 1.5px #707070;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+}
+
+.types > h3, p, em {
+    background-color: transparent;
+}
+
+.fas {
+    font-size: 4em;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 30px;
+}
+
+.results > h2 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+footer {
+    width: 475px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+footer > span {
+    margin: 0 auto 0 23px;
+    background-color: rgba(250,243,234,0.4);
+    border-radius: 5px;
+}
+
+#grocery, #art, #geek, #snob {
+    display: none;
+}
