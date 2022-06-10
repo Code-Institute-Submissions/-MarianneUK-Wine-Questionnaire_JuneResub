@@ -31,7 +31,7 @@ h2 {
 }
 
 .header {
-    height: 120px;
+    height: 130px;
     width: 300px;
     background-color: #F1D8BC;
     border: solid 2px #707070;
@@ -125,20 +125,19 @@ p {
 }
 
 footer {
-    width: auto;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: transparent;
     margin-top: 15px;
     font-weight: bolder;
 }
 
 footer > span {
-    font-size: 8px;
-    width: 300px;
-    margin: 0 auto 0 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
     background-color: rgba(250,243,234,0.4);
     border-radius: 5px;
 }
@@ -171,16 +170,19 @@ footer > span {
     }
 
     footer {
-        width: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: transparent;
         margin-top: 15px;
         font-weight: bolder;
     }
     
     footer > span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
         background-color: rgba(250,243,234,0.4);
         border-radius: 5px;
     }
