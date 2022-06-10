@@ -1,108 +1,273 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# WINE IN A MILLION
 
-Welcome Marianne J.,
+[View the live project here.](https://marianneuk.github.io//)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+![Landing page]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Table of Contents
+- [1. User Experience (UX) development process](#ux)
+  * [1.1. Strategy](#strategy)
+    + [Project Goals](#project-goals)
+    + [User Goals](#user-goals)
+    + [User Expectations](#user-expectations)
+  * [1.2. Structure](#structure)
+  * [1.3. Skeleton](#skeleton)
+  * [1.4. Surface](#surface)
+- [2. Features](#features)
+- [3. Technologies Used](#technologies-used)
+- [4. Testing](#testing)
+- [5. Known Bugs](#known-bugs)
+- [6. Deployment](#deployment)
+- [7. End Product](#end-product)
+- [8. Credits](#credits)
 
-`python3 -m http.server`
+<a name="ux"></a>
+# 1. User Experience (UX) development process
+  [Go to the top](#table-of-contents)
 
-A blue button should appear to click: _Make Public_,
+According to Jesse James Garrett, the user experience development process is all about ensuring that no aspect of the user’s experience with your site happens without your conscious, explicit intent. This means taking into account every possibility of every action the user is likely to take and understanding the user’s expectations at every step of the way through that process.
 
-Another blue button should appear to click: _Open Browser_.
+<a name="strategy"></a>
+## 1.1. Strategy
+  [Go to the top](#table-of-contents)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Jesse James Garrett also explains that strategy incorporates not only what the people running the site want to get out of it but what the users want to get out of the site as well.
 
-A blue button should appear to click: _Make Public_,
+### Project Goals
 
-Another blue button should appear to click: _Open Browser_.
+The main goals of this website is to 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User Goals
+ * First Time User Goals
+    - First time users will want to 
+    - First time users will want to 
+    - First time users will want to 
+    - First time users will want to 
+    - First time users will want to 
 
-To log into the Heroku toolbelt CLI:
+ *  Returning User Goals
+    - Returning users will want to 
+    - Returning users will want to 
+    - Returning users will want to 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ *  Frequent User Goals
+    - Frequent user will want to 
+    - Frequent user will want to 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### User Expectations
+According to 
 
-------
+<a name="structure"></a>
+## 1.2. Structure
+  [Go to the top](#table-of-contents)
 
-## Release History
+The project must have a responsive design as many users are using different devices (mobile, tablet, laptop/desktop). This gives the user the best experience on their device.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ - Responsive on all devices sizes
+ - Navigation bar is placed at the top of the screen and is clear and easy to use. This is also placed in the same position on every page.
+ - Footer at the bottom of each page that links to the social media websites.
+ - All elements will be consistent including font size, font family, colour scheme.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<a name="skeleton"></a>
+## 1.3. Skeleton
+  [Go to the top](#table-of-contents)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+According to [WebFX](https://www.webfx.com/blog/web-design/wireframing-benefits/), wireframes give web developers a clear path of what has to be done. It clarifies the direction and objectives of the site build and allows for better decision-making as to which web technologies, techniques and processes should be used in order to achieve an excellent result.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+For this project, wireframes were created using Adobe XD. All wireframes were shown to the client for approval, prior to starting the website development.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Wireframes    
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Home Page Wireframe:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  ![Home Page Wireframe]()
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Mobile Wireframe:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  ![Mobile Wireframe]()
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Contact Page Wireframe:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  ![Contact Page Wireframe]()       
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<a name="surface"></a>
+## 1.4. Surface
+  [Go to the top](#table-of-contents)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Colours
+The main colours for this are  and gray (#b3b3b3).
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Typography
+The font used throughout the project is Verdana with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Imagery
+The background image  
+All imagery are relevant to the artist and her own property.
 
-------
 
-## FAQ about the uptime script
+<a name="features"></a>
+# 2. Features
+  [Go to the top](#table-of-contents)
 
-**Why have you added this script?**
+According to [Designs Desk](https://www.designsdesk.com/91/10-essential-website-features-every-site-needs-to-be-successful/), the 10 essential website features every site needs to be successful are:
+  1. A Catchy URL
+  2. Essential Info
+  3. Contact Us Section
+  4. Easy-to-Navigate
+  5. Secure Website
+  6. Social Media Presence
+  7. Mobile Friendly Website
+  8. Great Content
+  9. Good Hosting
+  10. Great Design
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Existing Features
 
-**How will this affect me?**
+- __The landing page__
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  - This section introduces the user to Eli Bre with an eye catching picture and a Call to Action.
+  - A music player has been added so potential fans and industry representative can hear a taste of what Eli Bre has to offer. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Landing Page](assets/documentation/landing_page.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- __Quiz questions__
 
-**So….?**
+  - This section can be found on the Home page, below the fold. It aims to showcase Eli Bre's upcoming and past gigs.
+  - To add value to this section, a gallery of pictures has been added to complement the gigs' table. The gallery presents pictures of Eli Bre giging and recording as well as venues and events posters.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![Quiz questions]()
 
-**Can I opt out?**
+- __Results page__ 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+  - The footer section includes an embedded Spotify follow button, links to Eli Bre's social media sites and a link to the contact page. The social media links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and also provides a link to the contact page for desktop and mobile versions.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![Results page]()
 
-**Anything more?**
+### Features Left to Implement
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- 
 
----
+<a name="technologies-used"></a>
+## 3. Technologies Used
+  [Go to the top](#table-of-contents)
 
-Happy coding!
+* [Adobe XD](https://www.adobe.com/uk/products/xd.html?sdid=88X75SKR&mv=search&ef_id=CjwKCAjwzMeFBhBwEiwAzwS8zEdg1c5loBLcgbV5LTjaYi7O3-GLU0Gzv4EV_lO9A4Z9kiXtmX-x4RoClvYQAvD_BwE:G:s&s_kwcid=AL!3085!3!473161431558!e!!g!!adobe%20xd!1642716928!71269819668) for wireframes design.
+* [Gitpod](https://www.gitpod.io/) for writing most of the code as well as the readme file.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) as this project uses HyperText Markup Language.
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) as this project uses Cascading Style Sheets.
+* [JavaScript]
+* [Google Chrome DevTool](https://www.google.com/intl/en_uk/chrome/) for debugging.
+* [GitHub](https://github.com/) for deployment.
+
+<a name="testing"></a>
+# 4. Testing
+  [Go to the top](#table-of-contents) 
+
+## Manual Testing
+
+The site has been tested on various browsers such as Google Chrome, Safari and Mozilla Firefox, on multiple devices such as desktop, laptop, tablet and mobile.
+The site has also been shared with the client to gather her feedback.
+
+Below is the testing process for all pages on desktop and mobile versions:
+
+### All pages:
+
+- Start quiz
+    - When selecting "Home", the browser redirects to the Home page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
+- Questions 
+    - When selecting "Music", the browser redirects to the Music page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
+- Exit quiz 
+    - When selecting "Story", the browser redirects to the Story page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
+- Results 
+    - When selecting "Contact", the browser redirects to the Contact page. The text in the navigation bar is highlighted with a gray background for ease of navigation. Internal link works as expected.
+
+- Text:
+    - All text is in the correct and consistent size, font and color. Text has also been checked for typos.
+
+  - Media:
+    - All images load on the page. All images have alt text equivalent in a contrasted color if not loading or for visually impaired users. Working as expected.
+
+  - Responsiveness:
+    - Responsiveness has been more challenging than expected. After adding all media queries, the site was not behaving accordingly. While testing on various viewport, I noticed that previously centered elements would move out of their original places. From now on, I will start with a mobile-first design and work my way up to wider viewports.
+
+
+## Automated testing
+
+### W3C Validator Tools
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [Markup Validation Service](https://validator.w3.org/)
+  - 
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en)
+  - No Error Found.
+
+<a name="known-bugs"></a>
+# 5. Known Bugs
+  [Go to the top](#table-of-contents)
+
+
+
+  ![Footer Margin]()
+  ![Contact button margin]() 
+
+- Responsive design:
+  - 
+
+<a name="deployment"></a>
+# 6. Deployment
+  [Go to the top](#table-of-contents)
+
+GitHub pages was used to deploy the final project. 
+Below is the step by step process for deployment:
+
+  1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+  2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+  3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+  4. Under "Source", click the dropdown called "None" and select "Master Branch".
+  5. The page will automatically refresh.
+  6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+<a name="end-product"></a>
+# 7. End Product
+  [Go to the top](#table-of-contents)
+
+Below are screenshots of the end product, for desktop and mobile:
+
+Landing page:
+  ![Home page desktop]()
+  ![Home page mobile]()
+
+Landing page:
+  ![Home page desktop]()
+  ![Home page mobile]()
+
+<a name="credits"></a>
+# 8. Credits
+  [Go to the top](#table-of-contents)
+
+### Design
+
+- [Dribbble](https://dribbble.com/): for inspiration.
+- [DesignCourse Youtube Channel](https://www.youtube.com/c/DesignCourse/videos): for great tutorials from design to html &amp; css.
+
+### Code
+
+- [MDN Web Docs](https://developer.mozilla.org/): for refreshers on standard practices.
+- [W3Schools](https://www.w3schools.com/): for more refreshers on standard practices.
+
+### Content 
+
+- All content was written by 
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- All images were provided by 
+
+### Acknowledgements
+
+- 
