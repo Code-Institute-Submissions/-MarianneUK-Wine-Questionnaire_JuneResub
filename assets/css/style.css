@@ -148,7 +148,7 @@ footer > span {
 
 /* Media queries */
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
     .header {
         height: 90px;
         width: 400px;
@@ -171,7 +171,7 @@ footer > span {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .header {
         height: 90px;
         width: 600px;

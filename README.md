@@ -1,6 +1,6 @@
 # WINE IN A MILLION
 
-[View the live project here.](https://marianneuk.github.io//)
+[View the live project here.](https://marianneuk.github.io/Wine-Questionnaire/)
 
 
 
