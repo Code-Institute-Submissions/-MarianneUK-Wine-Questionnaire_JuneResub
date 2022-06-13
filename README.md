@@ -205,7 +205,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 # 5. Known Bugs
   [Go to the top](#table-of-contents)
 
-- I could not manage to add margin above the title, as the background image was moving with the title.
+- I could not manage to add margin above the title, as the background image was moving down with the title.
+- Whilst testing on my mobile phone, I noticed the background image was not reaching the bottom of the screen.
 
 <a name="deployment"></a>
 # 6. Deployment
