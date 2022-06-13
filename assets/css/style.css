@@ -196,13 +196,19 @@ footer > span {
     }
     
     .container {
-        height: auto;
         width: 600px;
+        height: auto;
     }
     
     .options {
         width: 550px;
         height: auto;
+        padding: 10px 10px 10px 65px;
+    }
+
+    label {
+        padding: 10px 0;
+        margin: 10px 0;
     }
     
     .types {

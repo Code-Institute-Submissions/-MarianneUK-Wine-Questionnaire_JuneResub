@@ -1,10 +1,10 @@
-# WINE IN A MILLION
+# WINE PERSONALITY TEST
 
 [View the live project here.](https://marianneuk.github.io/Wine-Questionnaire/)
 
 
 
-![Landing page]()
+![Landing page](/workspace/Wine-Questionnaire/assets/pictures/landing-page.png)
 
 # Table of Contents
 - [1. User Experience (UX) development process](#ux)
@@ -12,9 +12,10 @@
     + [Project Goals](#project-goals)
     + [User Goals](#user-goals)
     + [User Expectations](#user-expectations)
-  * [1.2. Structure](#structure)
-  * [1.3. Skeleton](#skeleton)
-  * [1.4. Surface](#surface)
+  * [1.2. Scope](#scope)
+  * [1.3. Structure](#structure)
+  * [1.4. Skeleton](#skeleton)
+  * [1.5. Surface](#surface)
 - [2. Features](#features)
 - [3. Technologies Used](#technologies-used)
 - [4. Testing](#testing)
@@ -60,7 +61,11 @@ The main goals of this website is to
 According to 
 
 <a name="structure"></a>
-## 1.2. Structure
+## 1.2. Scope
+  [Go to the top](#table-of-contents)
+
+<a name="structure"></a>
+## 1.3. Structure
   [Go to the top](#table-of-contents)
 
 The project must have a responsive design as many users are using different devices (mobile, tablet, laptop/desktop). This gives the user the best experience on their device.
@@ -71,7 +76,7 @@ The project must have a responsive design as many users are using different devi
  - All elements will be consistent including font size, font family, colour scheme.
 
 <a name="skeleton"></a>
-## 1.3. Skeleton
+## 1.4. Skeleton
   [Go to the top](#table-of-contents)
 
 According to [WebFX](https://www.webfx.com/blog/web-design/wireframing-benefits/), wireframes give web developers a clear path of what has to be done. It clarifies the direction and objectives of the site build and allows for better decision-making as to which web technologies, techniques and processes should be used in order to achieve an excellent result.
@@ -80,20 +85,24 @@ For this project, wireframes were created using Adobe XD. All wireframes were sh
 
 ### Wireframes    
 
-Home Page Wireframe:
+Home Page Web Wireframe:
 
-  ![Home Page Wireframe]()
+  ![Home Page Web Wireframe](/workspace/Wine-Questionnaire/assets/pictures/wq-wireframe-web1.png)
 
-Mobile Wireframe:
+Result Page Web Wireframe:
 
-  ![Mobile Wireframe]()
+  ![Result Page Web Wireframe](/workspace/Wine-Questionnaire/assets/pictures/wq-wireframe-web2.png)
 
-Contact Page Wireframe:
+Home Page Mobile Wireframe:
 
-  ![Contact Page Wireframe]()       
+  ![Home Page Mobile Wireframe](/workspace/Wine-Questionnaire/assets/pictures/wq-wireframe-mob1.png)
+
+Result Page Mobile Wireframe:
+
+  ![Result Page Mobile Wireframe](/workspace/Wine-Questionnaire/assets/pictures/wq-wireframe-mob2.png)      
 
 <a name="surface"></a>
-## 1.4. Surface
+## 1.5. Surface
   [Go to the top](#table-of-contents)
 
 ### Colours
