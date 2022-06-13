@@ -11,7 +11,7 @@
     <title>Wine Personality Test</title>
 </head>
 <body>   
-    <div class="bcg-img"></div>
+    <div class="bcg-img" alt="wine corks in a basket"></div>
     <div class="header">
         <h1>What kind of <br>wine drinker are you?</h1>
     </div>    
@@ -89,8 +89,8 @@
             <label>In the recycling bin with the other ten.</label><br>
         </div>
 
-        <button type="submit" id="submit" onclick="getResult()">submit</button>
-        <button type="reset" id="reset" onclick="location.reload()">reset</button>
+        <button type="submit" id="submit" onclick="getResult()" aria-label="submit">submit</button>
+        <button type="reset" id="reset" onclick="location.reload()" aria-label="reset">reset</button>
 
         <div class="options" id="result">For you, wine is like...</div>
 
